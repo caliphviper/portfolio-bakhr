@@ -1,10 +1,10 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
+import { FaPhp } from "react-icons/fa";
+import { FaLaravel } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
@@ -23,20 +23,20 @@ const skills = [
     icon: IoLogoJavascript,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "Wordpress",
+    icon: FaWordpress,
   },
   {
     skill: "ReactJS",
     icon: FaReact,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "Php",
+    icon: FaPhp,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "Laravel",
+    icon: FaLaravel,
   },
   {
     skill: "TailwindCSS",
